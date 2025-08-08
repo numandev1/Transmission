@@ -17,7 +17,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/nathantannar4/Engine", from: "2.1.15"),
+        .package(url: "https://github.com/numandev1/Engine", branch: "fix/swift-concurrency"),
     ],
     targets: [
         .target(
